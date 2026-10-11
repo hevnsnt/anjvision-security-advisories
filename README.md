@@ -1,6 +1,6 @@
 # Anjvision ODM IP Camera Firmware Security Advisories
 
-Security research by **Bill Swearingen, Trifident Security** (hevnsnt@gmail.com).
+Security research by **Bill Swearingen, SixCyber LLC** (bill@sixcyber.com).
 
 These advisories cover vulnerabilities in the Anjvision / Anjoy Technology ODM IP
 camera firmware, which ships under 20+ brand labels including ANPVIZ, SV3C,
@@ -13,11 +13,20 @@ build has shipped as of this writing.
 
 ## Status
 
-Coordinated disclosure is in progress. CVE IDs have been requested from the MITRE
-CNA of Last Resort. Full technical details, binary offsets, and proof-of-concept
-code are **withheld** from these public pages pending vendor notification and the
-coordinated disclosure window. Vendors and CNAs may request the full technical
-package under coordinated disclosure by contacting hevnsnt@gmail.com.
+**29 CVE requests were filed with the MITRE CNA of Last Resort (CNA-LR) on 2026-10-11.**
+CVE IDs are pending assignment and will be listed here as MITRE issues them. One further
+finding (ONVIF Digest authentication nonce) is held pending live verification and has not
+been submitted.
+
+| Date | Milestone |
+|------|-----------|
+| 2026-10-11 | 29 CVE IDs requested from MITRE CNA-LR; publication deferred (coordinated disclosure) |
+| pending | CVE IDs assigned by MITRE — to be published here |
+
+Coordinated disclosure is in progress. Full technical details, binary offsets, and
+proof-of-concept code are **withheld** from these public pages pending vendor notification
+and the coordinated disclosure window. Vendors and CNAs may request the full technical
+package under coordinated disclosure by contacting bill@sixcyber.com.
 
 ## Advisory Index
 
@@ -50,7 +59,7 @@ package under coordinated disclosure by contacting hevnsnt@gmail.com.
 | [Hikvision Sdk Authentication Disabled](advisories/hikvision-sdk-authentication-disabled.md) | CWE-306 | 7.5 High |
 | [Unsalted Md5 Password Hashes](advisories/unsalted-md5-password-hashes.md) | CWE-916 | 7.5 High |
 | [Timing Side Channel Password Comparison](advisories/timing-side-channel-password-comparison.md) | CWE-208 | 5.9 Medium |
-| [Hardcoded Digest Auth Nonce](advisories/hardcoded-digest-auth-nonce.md) | CWE-323 | 4.8 Medium |
+| [Hardcoded Digest Auth Nonce](advisories/hardcoded-digest-auth-nonce.md) (held, not submitted — pending live verification) | CWE-323 | 4.8 Medium |
 | [Fleet Wide Ec License Key](advisories/fleet-wide-ec-license-key.md) | CWE-321 | 7.2 High |
 | [Uboot Env Write Persistence](advisories/uboot-env-write-persistence.md) | CWE-306 | 7.8 High |
 | [Cloud Platform Reregistration](advisories/cloud-platform-reregistration.md) | CWE-284 | 7.1 High |
@@ -61,4 +70,4 @@ package under coordinated disclosure by contacting hevnsnt@gmail.com.
 
 ## Disclosure Contact
 
-Bill Swearingen, Trifident Security, hevnsnt@gmail.com
+Bill Swearingen, SixCyber LLC, bill@sixcyber.com
