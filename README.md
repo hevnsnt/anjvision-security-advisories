@@ -36,6 +36,29 @@ package under coordinated disclosure by contacting hevnsnt@gmail.com.
 | [Hardcoded DES "WebLogin" API key](advisories/des-weblogin-hardcoded-key.md) | CWE-321 / CWE-327 | 7.5 High |
 | [Unauthenticated ONVIF information disclosure](advisories/onvif-unauthenticated-info-disclosure.md) | CWE-200 | 7.5 High |
 
+### Additional advisories (batch 2)
+
+| Advisory | Class (CWE) | CVSS 3.1 |
+|----------|-------------|----------|
+| [Unauthenticated Firmware Upload](advisories/unauthenticated-firmware-upload.md) | CWE-306/CWE-345 | 9.8 Critical |
+| [Unauthenticated Tls Certificate Replacement](advisories/unauthenticated-tls-certificate-replacement.md) | CWE-306 | 8.6 High |
+| [Unauthenticated Arbitrary File Upload](advisories/unauthenticated-arbitrary-file-upload.md) | CWE-306/CWE-434 | 9.1 Critical |
+| [Fleet Identical Root Password Hash](advisories/fleet-identical-root-password-hash.md) | CWE-798/CWE-916 | 9.8 Critical |
+| [Unconditional Telnet Daemon](advisories/unconditional-telnet-daemon.md) | CWE-306/CWE-319 | 9.8 Critical |
+| [Default Administrator Credentials](advisories/default-administrator-credentials.md) | CWE-1392 | 9.8 Critical |
+| [Unauthenticated Udp Broadcast Control](advisories/unauthenticated-udp-broadcast-control.md) | CWE-306 | 9.1 Critical |
+| [Hikvision Sdk Authentication Disabled](advisories/hikvision-sdk-authentication-disabled.md) | CWE-306 | 7.5 High |
+| [Unsalted Md5 Password Hashes](advisories/unsalted-md5-password-hashes.md) | CWE-916 | 7.5 High |
+| [Timing Side Channel Password Comparison](advisories/timing-side-channel-password-comparison.md) | CWE-208 | 5.9 Medium |
+| [Hardcoded Digest Auth Nonce](advisories/hardcoded-digest-auth-nonce.md) | CWE-323 | 4.8 Medium |
+| [Fleet Wide Ec License Key](advisories/fleet-wide-ec-license-key.md) | CWE-321 | 7.2 High |
+| [Uboot Env Write Persistence](advisories/uboot-env-write-persistence.md) | CWE-306 | 7.8 High |
+| [Cloud Platform Reregistration](advisories/cloud-platform-reregistration.md) | CWE-284 | 7.1 High |
+| [Wifi Psk Cleartext Storage](advisories/wifi-psk-cleartext-storage.md) | CWE-312 | 5.5 Medium |
+| [Credentials In Shared Memory](advisories/credentials-in-shared-memory.md) | CWE-312 | 5.5 Medium |
+| [Default Wifi Ssid Psk](advisories/default-wifi-ssid-psk.md) | CWE-1188 | 7.5 High |
+| [Alarm Snapshots Cleartext Http](advisories/alarm-snapshots-cleartext-http.md) | CWE-319 | 6.5 Medium |
+
 ## Disclosure Contact
 
 Bill Swearingen, Trifident Security, hevnsnt@gmail.com
